@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id" : 1,
+      "email" : "max@mail.ru",
+      "name" : "Maksat",
+      "surname" : "Birimkulov",
+      "phone" : "+9965523132",
+      "city" : "Bishkek",
+      "street" : "Frunze",
+      "home" : "2",
+      "orders" : [],
+      "carts" : [],
+      "point": 500
+    }
+  ],
+  "products" : [
+
+  ]
+}
