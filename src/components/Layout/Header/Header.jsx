@@ -1,10 +1,15 @@
-import React from 'react';
+import HeaderTop from "./HeaderTop/HeaderTop.jsx";
+import HeaderCenter from "./HeaderCenter/HeaderCenter.jsx";
+
 
 const Header = () => {
     return (
-        <div>
-            
-        </div>
+        <header className="header">
+            <HeaderTop/>
+            <div className="container">
+                <HeaderCenter/>
+            </div>
+        </header>
     );
 };
 

@@ -14,12 +14,12 @@ import api from "./config/api/api.js";
 
 function App() {
 
-    const [users,setUsers] = useState([])
-
-    useEffect(() => {
-        api('users').json()
-            .then((res) => console.log(res))
-    }, [])
+    // const [users,setUsers] = useState([])
+    //
+    // useEffect(() => {
+    //     api('users').json()
+    //         .then((res) => console.log(res))
+    // }, [])
 
 
   return (

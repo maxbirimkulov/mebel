@@ -1,10 +1,13 @@
-import React from 'react';
+import Banner from "./Banner/Banner.jsx";
+import HitSale from "./HitSale/HitSale.jsx";
+
 
 const Home = () => {
     return (
-        <div>
-
-        </div>
+        <main>
+            <Banner/>
+            <HitSale/>
+        </main>
     );
 };
 
